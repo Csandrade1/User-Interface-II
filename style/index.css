@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 
 html {
@@ -77,6 +77,29 @@ button a {
 }
 
 @media (max-width: 800px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .links button {
+    width: 40%;
+    margin: 1% 0;
+  }
+  .topsection {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .row div {
+    width: 40%;
+  }
 }
 @media (max-width: 500px) {
   nav {
